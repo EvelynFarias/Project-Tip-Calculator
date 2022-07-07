@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --primary-color: #4659b7;
+    --secondary-color: #3b3b3b;
+    --tertiary-color: Gainsboro;
+}
+
+body {
+    background-image: linear-gradient(to left top, #5c3896, #573696, #523597, #4c3397, #463298, #443a9f, #4341a5, #4148ab, #4659b7, #4c69c2, #557acc, #608ad6);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+#container-1 {
+    margin: 100px auto;
+}
+
+#container-2 {
+    min-height: 34rem;
+    max-height: 45rem;
+    width: 360px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    box-shadow: 7px 7px 23px 0px rgba(59, 59, 59, 0.301);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    color: var(--secondary-color);
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: rgba(196, 194, 194, 0.795);
+    width: 4rem;
+    padding: 5px 5px 8px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formInput:focus {
+    background: #4659b780;
+    ;
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 16px;
+    border: solid 1px #3b3b3b69;
+    border-radius: 5px;
+}
+
+.formSelect:focus {
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.281);
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+}
+
+.pt2 {
+    margin-top: 2rem;
+    display: block;
+}
+
+.pt3 {
+    margin-top: 2rem;
+    display: block;
+}
+
+#img {
+    margin-bottom: -9.5rem;
+    display: flex;
+}
+
+.icon {
+    background-color: var(--primary-color);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.281);
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconCifrao {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#totalTip {
+    flex-direction: row;
+}
+
+#total {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#each {
+    margin-left: 5px;
+}
+
+.titleTotal {
+    font-weight: 700;
+    color: #4148ab;
+}
+
+.valor {
+    margin-left: 5px;
+    margin-right: 5px;
+}
